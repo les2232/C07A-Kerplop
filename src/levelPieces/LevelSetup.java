@@ -42,14 +42,31 @@ public class LevelSetup {
 		return playerStartLoc;
 	}
 	
-	private void level1() {
+	private void buildLevel1() {
 		board = new Drawable[GameEngine.BOARD_SIZE];
 		movingPieces = new ArrayList<>(); 
 		interactingPieces = new ArrayList<>();
 		
 		playerStartLoc = 0;
-		
-		}
-	
+
+		Tumbleweed tumbleweed = new Tumbleweed(5);
+		GoldNugget goldNugget = new GoldNugget(10);
+		Outlaw outlaw = new Outlaw(15);
+		SaloonDoor saloonDoor = new SaloonDoor(20);
+
+		gameBoard[tumbleweed.getLocation()] = tumbleweed;
+		gameBoard[goldNugget.getLocation()] = goldNugget;
+		gameBoard[outlaw.getLocation()] = outlaw;
+		gameBoard[saloonDoor.getLocation()] = saloonDoor;
+
+		movingPieces.add(tumbleweed);
+		interactingPieces.add(goldNugget);
+		interactingPieces.add(outlaw);
+		interactingPieces.add(saloonDoor);
 	}
+	
+	private void buildLevel2() {
+		
+	}
+}
 

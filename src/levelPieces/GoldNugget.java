@@ -3,7 +3,7 @@ package levelPieces;
 import gameEngine.Drawable;
 import gameEngine.InteractionResult; 
 
-public class GoldNugget extends GamePiece(int location) {
+public class GoldNugget extends GamePiece {
 
     public GoldNugget(int location) {
         super('$', "Gold Nugget", location); 
