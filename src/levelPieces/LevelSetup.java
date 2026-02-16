@@ -106,9 +106,6 @@ public class LevelSetup {
 		interactingPieces.add(goldNugget1);
 		interactingPieces.add(goldNugget2);
 
-		interactingPieces.add(cactus1);
-		interactingPieces.add(cactus2);
-
 		interactingPieces.add(outlaw);
 		interactingPieces.add(sheriffSniper);
 
