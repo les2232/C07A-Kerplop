@@ -12,7 +12,9 @@ public class BullStampede extends GamePiece implements Moveable {
 	
     @Override
     public InteractionResult interact(Drawable[] gameBoard, int playerLocation) {
-        if (playerLocation == getLocation()) {
+    	int distance = Math.abs(playerLocation - getLocation());
+    	
+        if (distance == 0) {
             return InteractionResult.HIT;
         }
         return InteractionResult.NONE;

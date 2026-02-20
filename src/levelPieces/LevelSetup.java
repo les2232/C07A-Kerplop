@@ -104,12 +104,14 @@ public class LevelSetup {
 
 		movingPieces.add(tumbleweed1);
 		movingPieces.add(bullStampede);
+		movingPieces.add(outlaw);
+		movingPieces.add(saloonDoor);
 
 		interactingPieces.add(goldNugget1);
 		interactingPieces.add(goldNugget2);
-
 		interactingPieces.add(outlaw);
 		interactingPieces.add(sheriffSniper);
+		interactingPieces.add(bullStampede);
 
 		interactingPieces.add(saloonDoor);
 	}
