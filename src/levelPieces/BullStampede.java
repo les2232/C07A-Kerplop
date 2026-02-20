@@ -20,20 +20,25 @@ public class BullStampede extends GamePiece implements Moveable {
 	
 	@Override
 	public void move(Drawable[] gameBoard, int playerLocation) {
-		int currentLocation = getLocation();
+		int current = getLocation();
 		
-		if (currentLocation == playerLocation) {
+		if (current == playerLocation) {
 			return; 
 		}
 		
-		if (playerLocation > currentLocation) {
-			setLocation(currentLocation + 1);
-			return;
+		int next = current;
+		
+		if (playerLocation > current) {
+			next = current + 1;
+			setLocation(next);
+			
+		} else if (playerLocation < current) {
+			next = current - 1;
+			setLocation(next);
 		}
 		
-		if (playerLocation < currentLocation) {
-			setLocation(currentLocation - 1);
-		}
+		gameBoard[current] = null;
+		gameBoard[next] = this;
 		
 	}
 

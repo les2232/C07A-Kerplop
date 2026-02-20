@@ -16,22 +16,25 @@ public class Outlaw extends GamePiece implements Moveable {
 	@Override
 	public void move (Drawable[] gameBoard, int playerLocation) {
 		
-		int prevLocation = getLocation();
-		int newLocation = prevLocation + direction;
+		int current = getLocation();
+		int next = current + direction;
 		
-		if (newLocation < 0 || newLocation >= gameBoard.length) {
+		if (next < 0 || next >= gameBoard.length) {
 			direction = direction * -1;
-			newLocation = prevLocation + direction;
+			next = current + direction;
 		}
 		
-		setLocation(newLocation);
+		setLocation(next);
+		
+		gameBoard[current] = null;
+		gameBoard[next] = this;
 	}
 
 	@Override
 	public InteractionResult interact(Drawable[] gameBoard, int playerLocation) {
 		int distance = Math.abs(playerLocation - getLocation());
 		
-		if (distance <= 2) {
+		if (distance <= 1) {
 			return InteractionResult.HIT;
 		}
 		

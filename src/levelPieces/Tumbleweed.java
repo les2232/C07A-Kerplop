@@ -27,6 +27,9 @@ public class Tumbleweed extends GamePiece implements Moveable{;
 		}
 		
 		setLocation(next);
+		
+		gameBoard[current] = null;
+		gameBoard[next] = this;
 	}
 	
 	@Override

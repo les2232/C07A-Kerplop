@@ -60,6 +60,8 @@ public class LevelSetup {
 		gameBoard[saloonDoor.getLocation()] = saloonDoor;
 
 		movingPieces.add(tumbleweed);
+		movingPieces.add(outlaw);
+		movingPieces.add(saloonDoor);
 		interactingPieces.add(goldNugget);
 		interactingPieces.add(outlaw);
 		interactingPieces.add(saloonDoor);
