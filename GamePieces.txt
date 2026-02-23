@@ -1,0 +1,12 @@
+Authors: Xander Lewis and Leslie Cordova
+Section: A
+
+GamePieces:
+BullStampede (B) = movement toward player, interaction on contact
+Outlaw (O) - movement, patrols, interaction on contact
+SheriffSniper (S) - no movement, kill within range
+Tumbleweed (*) - random movement, interaction on contact
+Cactus (C) - no movement, no interaction
+GoldNugget ($) - no movement, player scores on contact
+SaloonDoor (=) - no movement, player advances on contact
+
