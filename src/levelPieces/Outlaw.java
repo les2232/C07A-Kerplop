@@ -19,15 +19,17 @@ public class Outlaw extends GamePiece implements Moveable {
 		int current = getLocation();
 		int next = current + direction;
 		
-		if (next < 0 || next >= gameBoard.length) {
+		if (next < 0 || next >= gameBoard.length || gameBoard[next] != null) {
 			direction = direction * -1;
 			next = current + direction;
 		}
 		
-		setLocation(next);
+		if(gameBoard[next] == null) {
+			setLocation(next);
+			gameBoard[current] = null;
+			gameBoard[next] = this;
+		}
 		
-		gameBoard[current] = null;
-		gameBoard[next] = this;
 	}
 
 	@Override

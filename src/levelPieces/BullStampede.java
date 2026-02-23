@@ -39,8 +39,11 @@ public class BullStampede extends GamePiece implements Moveable {
 			setLocation(next);
 		}
 		
-		gameBoard[current] = null;
-		gameBoard[next] = this;
+		if(gameBoard[next] == null) {
+			setLocation(next);
+			gameBoard[current] = null;
+			gameBoard[next] = this;
+		}
 		
 	}
 

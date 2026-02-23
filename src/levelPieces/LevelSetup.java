@@ -61,7 +61,6 @@ public class LevelSetup {
 
 		movingPieces.add(tumbleweed);
 		movingPieces.add(outlaw);
-		movingPieces.add(saloonDoor);
 		interactingPieces.add(goldNugget);
 		interactingPieces.add(outlaw);
 		interactingPieces.add(saloonDoor);
@@ -105,7 +104,6 @@ public class LevelSetup {
 		movingPieces.add(tumbleweed1);
 		movingPieces.add(bullStampede);
 		movingPieces.add(outlaw);
-		movingPieces.add(saloonDoor);
 
 		interactingPieces.add(goldNugget1);
 		interactingPieces.add(goldNugget2);
