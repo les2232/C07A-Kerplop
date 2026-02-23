@@ -1,0 +1,89 @@
+commit daa91d91e1cc0ee039ee062f3b9e148ff9209875
+Author: Xander Lewis <xander_lewis@mines.edu>
+Date:   Fri Feb 20 16:58:10 2026 -0700
+
+    implemented remaining movable pieces in level 2, implemented interraction of bull stampede in level 2
+
+commit 3f67edf2df56c7072d76766cbc3a1f2bdfa6e331
+Author: Xander Lewis <xander_lewis@mines.edu>
+Date:   Fri Feb 20 16:46:56 2026 -0700
+
+    implemented movement in some moveable level pieces, adjusted balance of outlaw
+
+commit 1717d3ad874d330c8e2f21dff5526747971a0dc2
+Author: jay.exe22 <leslie_cordova@mines.edu>
+Date:   Sun Feb 15 18:45:25 2026 -0700
+
+    finished pieces
+
+commit dfe31e9e116d2ae94623315339f1baeefa4b2542
+Author: jay.exe22 <leslie_cordova@mines.edu>
+Date:   Sun Feb 15 18:26:37 2026 -0700
+
+    Implemented pieces classes
+
+commit d143445cf997851462eb50b8f865217aae7fbb51
+Author: jay.exe22 <leslie_cordova@mines.edu>
+Date:   Sun Feb 15 17:53:16 2026 -0700
+
+    Implemented SaloonDoor ADVANCE interaction
+
+commit a3102af22994c79d5b0fb5f34e90f1da425c7e85
+Author: jay.exe22 <148008396+les2232@users.noreply.github.com>
+Date:   Mon Feb 16 00:42:33 2026 +0000
+
+    Ignore build artifacts and remove tracked class files
+
+commit b1869400825c3c60d2f6ce547a1cdf9274694e36
+Author: jay.exe22 <148008396+les2232@users.noreply.github.com>
+Date:   Mon Feb 16 00:27:08 2026 +0000
+
+    Update buildLevel1 method with player start location
+
+commit 2747062e94c054a85ac3f727b76c55a192cdc073
+Author: jay.exe22 <148008396+les2232@users.noreply.github.com>
+Date:   Mon Feb 16 00:13:47 2026 +0000
+
+    Fix GoldNugget class declaration and implement buildLevel1/buildLevel2 methods
+
+commit 0e4eaea1152f0419b7ac6920f6412e84bc48e672
+Author: jay.exe22 <148008396+les2232@users.noreply.github.com>
+Date:   Sun Feb 15 23:44:46 2026 +0000
+
+    Update GoldNugget.java
+
+commit 731a5cba98fa15eab3e07d06486e31275825119d
+Author: lescordova22 <lescordova22@gmail.com>
+Date:   Fri Feb 13 19:51:30 2026 -0700
+
+    Added outlaw and some methods
+
+commit 8ea603551d72121d604667c9ca05e7ccf3e73587
+Author: lescordova22 <lescordova22@gmail.com>
+Date:   Fri Feb 13 19:40:47 2026 -0700
+
+    Added tumbleweed and methods
+
+commit 7fd89190a3c25c82666b4f6987cd89fee1855b98
+Author: lescordova22 <lescordova22@gmail.com>
+Date:   Fri Feb 13 19:38:48 2026 -0700
+
+    Added tumbleweed and methods
+
+commit 70dfe51a4df1584cb45539f12a085bd61df07f1a
+Author: lescordova22 <lescordova22@gmail.com>
+Date:   Fri Feb 13 19:31:18 2026 -0700
+
+    Added cowboy themed game pieces
+
+commit c243b8c45d79b567df7dba3cd1eb3681b9a80b51
+Author: S01970853 <S01970853@CCACAD201H-L03.ccc.ccofc.edu>
+Date:   Fri Feb 13 19:25:52 2026 -0700
+
+    created pieces, fixed some level setup
+
+commit 6f8361ba01a9c2f8bf2b4d84e8a12dc766554e4b
+Author: jay.exe22 <148008396+les2232@users.noreply.github.com>
+Date:   Tue Feb 10 17:11:31 2026 -0700
+
+    Add files via upload
